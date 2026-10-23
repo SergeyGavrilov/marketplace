@@ -10,6 +10,14 @@ Switch between unified and split layouts. Expand unchanged lines in either direc
 
 Click, Shift-click, or drag across line numbers, then choose **Add to chat**. The selected diff fragment includes its file path, line coordinates, and comparison revision. Add a whole-file mention with the filename header button or Cmd/Ctrl+click in the tree. These actions append to your draft without sending it.
 
+## Open files from chat
+
+Choose BB's default file links, a separate Diff Tree button, or direct opening in Diff Tree. Optional routing works with workspace links and Open buttons in GenUI Changes cards. It reuses the viewer, reveals the selected file, and preserves modified clicks and inline diff expansion. BB's default behavior is selected initially.
+
+## Adjust your viewer
+
+Use **Settings → Diff Tree** to toggle file icons, choose the initial layout, adjust the code font and context expansion size, and control refresh on return. Smooth transitions show a quiet skeleton and fade in the ready diff; animations respect reduced-motion preferences. Background refreshes keep the loaded diff visible.
+
 ## Requirements and limits
 
 Requires BB 0.46.1+, Plugin SDK 0.6.49+, and a Git workspace. Commit history runs read-only Git commands on the workspace's enrolled BB host. No API key, paid account, external service, or icon download is needed.
